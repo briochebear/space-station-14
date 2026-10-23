@@ -304,19 +304,6 @@
   - !type:StockLimitedListingCondition
     stockLimit: 2
 
-- type: listing
-  id: SKBStolenFakeShield
-  name: SKB-stolen-shield-name
-  description: SKB-stolen-shield-desc
-  productEntity: FakeMindShieldImplanter
-  cost:
-    Telebond: 30
-  categories:
-  - RevUplinkImplants
-  conditions:
-  - !type:StockLimitedListingCondition
-    stockLimit: 1
-
 ### Shuttles Category
 
 - type: listing
@@ -596,7 +583,7 @@
   - RevUplinkWar
   conditions:
   - !type:ListingLimitedStockCondition
-    stock: 10
+    stock: 3
   - !type:BuyBeforeCondition
     whitelist:
       - RevSupplyRiftListing
@@ -612,7 +599,7 @@
   - RevUplinkWar
   conditions:
   - !type:ListingLimitedStockCondition
-    stock: 10
+    stock: 3
   - !type:BuyBeforeCondition
     whitelist:
       - RevSupplyRiftListing
@@ -621,7 +608,7 @@
   id: RevolutionaryWarMechListing
   productEntity: MechPobedaFilled
   cost:
-    Conversion: 60
+    Conversion: 70
   categories:
   - RevUplinkWar
   conditions:
